@@ -10,7 +10,7 @@
 </head>
 
 <body>
-     <table id="table_id" class="display">
+     <table id="example" class="display" style="width:100%">
           <thead>
                <tr>
                     <th>Column 1</th>
@@ -42,9 +42,11 @@
 
      </table>
 </body>
-<script src="http//cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js">
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js">
      $(document).ready(function () {
-          $('#table_id').DataTable();
+          $('#example').DataTable();
      });
 </script>
 
